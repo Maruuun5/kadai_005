@@ -1,0 +1,58 @@
+h1{
+    margin: 0;
+    background-color: rgb(244,79,79);
+    text-align: center;
+    color: rgb(255,255,255);
+}
+#parent{
+
+    margin: 0;
+    justify-content: baseline;
+}
+.contents{
+    border: solid 3px rgb(238,204,204);
+    margin: 10px 15px;
+    padding: 20px 0px;
+    text-align: center;
+    }
+.contents p:nth-of-type(2)::first-letter{
+ font-weight: bold;
+ color: rgb(97,206,249);   
+}
+.contents img{
+    margin: 10px 0;
+    width: 70%;
+}
+
+h2{
+    font-size: 25px;
+    border-bottom: dotted 3px rgb(236,122,122);
+    
+}
+h2::before {
+    content: "●";
+    color: rgb(239,111,139);
+}
+
+nav{
+    text-align:center;
+    background-color:  rgb(244,79,79);
+}
+
+a:hover{
+    color: rgb(245,178,168);
+}
+a:visited{
+    color: rgb(193,234,251);
+}
+
+div{
+    display:inline;
+
+}
+
+@media screen and (max-width: 768px) {
+    div{
+        display: block;
+    }
+    }
