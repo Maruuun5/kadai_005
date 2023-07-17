@@ -1,0 +1,26 @@
+html{
+    font-family: "Arial","Meiryo","sans-serif";
+    font-size: 20px;
+    text-align: center;
+}
+div > h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 1.2em;
+    border-bottom: solid 3px rgb(115,115,114);
+    text-shadow: 10px 10px 10px rgb(115,115,114); 
+}
+div > h1::first-letter {
+    color: skyblue;
+}
+div > h1 >span {
+    color: rgb(255,192,203);
+}
+.h2-pink{
+    color: rgb(255,192,203);
+}
+.h2-sky{
+    color: skyblue;
+}
+#p-1{
+    font-weight: bold;
+}
